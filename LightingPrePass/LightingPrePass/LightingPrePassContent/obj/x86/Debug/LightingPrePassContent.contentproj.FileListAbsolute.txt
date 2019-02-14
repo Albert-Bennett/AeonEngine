@@ -1,0 +1,2 @@
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePassContent\obj\x86\Debug\LightingPrePassContent.contentprojResolveAssemblyReference.cache
+E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePassContent\obj\x86\Debug\LightingPrePassContent.contentprojResolveAssemblyReference.cache

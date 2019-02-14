@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scene>
+  <Count>2</Count>
+
+  <Object0>
+    <Type>SampleObjects.Robot</Type>
+    <Parameters>3</Parameters>
+
+    <Obj0Param0>
+      <Value>System.String_Bot1</Value>
+    </Obj0Param0>
+    <Obj0Param1>
+      <Value>Vector3_0,0,-10</Value>
+    </Obj0Param1>
+    <Obj0Param2>
+      <Value>System.Int32_0</Value>
+    </Obj0Param2>
+  </Object0>
+  <Object1>
+    <Type>SampleObjects.Robot</Type>
+    <Parameters>3</Parameters>
+
+    <Obj1Param0>
+      <Value>System.String_Bot2</Value>
+    </Obj1Param0>
+    <Obj1Param1>
+      <Value>Vector3_-2,0,-25</Value>
+    </Obj1Param1>
+    <Obj1Param2>
+      <Value>System.Int32_30</Value>
+    </Obj1Param2>
+  </Object1>
+</Scene>

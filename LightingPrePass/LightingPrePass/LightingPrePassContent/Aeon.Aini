@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Setup>
+  <Assemblies>
+    <AssemblyCount>
+      <Value>1</Value>
+    </AssemblyCount>
+
+    <Assembly0>
+      <Value>Aeon.Rendering</Value>
+    </Assembly0>
+  </Assemblies>
+  
+  <Components>
+    <ComponentCount>
+      <Value>2</Value>
+    </ComponentCount>
+
+    <Comp0>
+      <Value>Aeon.Rendering.RenderingFramework</Value>
+    </Comp0>
+    <Comp1>
+      <Value>Aeon.SceneManagement.SceneManager</Value>
+    </Comp1>
+  </Components>
+</Setup>

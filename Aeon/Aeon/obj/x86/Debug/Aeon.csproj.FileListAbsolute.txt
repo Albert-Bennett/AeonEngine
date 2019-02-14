@@ -1,0 +1,12 @@
+C:\Users\Albert\Desktop\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Albert\Desktop\Aeon Engine\Aeon\Aeon\bin\x86\Debug\Aeon.dll
+C:\Users\Albert\Desktop\Aeon Engine\Aeon\Aeon\bin\x86\Debug\Aeon.pdb
+C:\Users\Albert\Desktop\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Aeon.dll
+C:\Users\Albert\Desktop\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Aeon.pdb
+C:\Users\Albert\Desktop\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Aeon.csprojResolveAssemblyReference.cache
+E:\Aeon Engine\Aeon\Aeon\bin\x86\Debug\Aeon.dll
+E:\Aeon Engine\Aeon\Aeon\bin\x86\Debug\Aeon.pdb
+E:\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Aeon.csprojResolveAssemblyReference.cache
+E:\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Aeon.dll
+E:\Aeon Engine\Aeon\Aeon\obj\x86\Debug\Aeon.pdb

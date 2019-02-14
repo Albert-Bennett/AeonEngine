@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Info>
+  <Count>2</Count>
+  <AssemblyRef>SampleObjects</AssemblyRef>
+  
+  <Scene0>
+    <Value>Scenes/Scene1</Value>
+  </Scene0>
+  <Scene1>
+    <Value>Scenes/Scene2</Value>
+  </Scene1>
+</Info>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scene>
+  <Count>1</Count>
+
+  <Object0>
+    <Type>SampleObjects.EngineText</Type>
+    <Parameters>1</Parameters>
+
+    <Obj0Param0>
+      <Value>System.String_EngineName</Value>
+    </Obj0Param0>
+  </Object0>
+</Scene>

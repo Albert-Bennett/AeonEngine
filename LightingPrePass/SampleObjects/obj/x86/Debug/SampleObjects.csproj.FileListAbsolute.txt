@@ -1,0 +1,14 @@
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\SampleObjects.dll
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\SampleObjects.pdb
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\Aeon.dll
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\Aeon.Engine.dll
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\Aeon.Rendering.dll
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\Aeon.Engine.pdb
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\Aeon.Rendering.pdb
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\bin\x86\Debug\Aeon.pdb
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\obj\x86\Debug\SampleObjects.csprojResolveAssemblyReference.cache
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\obj\x86\Debug\SampleObjects.dll
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\SampleObjects\obj\x86\Debug\SampleObjects.pdb
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\SampleObjects.dll
+C:\Users\Albert\Desktop\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\SampleObjects.pdb

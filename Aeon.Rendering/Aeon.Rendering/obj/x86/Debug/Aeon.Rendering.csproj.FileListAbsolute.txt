@@ -1,0 +1,8 @@
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\bin\x86\Debug\Aeon.Rendering.dll
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\bin\x86\Debug\Aeon.Rendering.pdb
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\obj\x86\Debug\Aeon.Rendering.csprojResolveAssemblyReference.cache
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\obj\x86\Debug\Aeon.Rendering.dll
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\obj\x86\Debug\Aeon.Rendering.pdb
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\bin\x86\Debug\Aeon.dll
+C:\Users\Albert\Desktop\Aeon Engine\Aeon.Rendering\Aeon.Rendering\bin\x86\Debug\Aeon.pdb

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Aeon\Models\PointLightModel.fbx</Source>
+      <Name>Aeon\Models\PointLightModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Models\PointLightModel.xnb</Output>
+      <Time>2013-04-14T10:18:50.7852157+01:00</Time>
+      <Dependency>
+        <Key>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\obj\x86\Debug\Aeon\Models\PointLightModel_0.xml</Key>
+        <Value>2013-08-08T14:06:34.5797573+01:00</Value>
+      </Dependency>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Models\Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Text\Text.fbx</Source>
+      <Name>Models\Text\Text</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MdlProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">6</Data>
+        <Data Key="RotationZ">-90</Data>
+        <Data Key="RotationY">90</Data>
+        <Data Key="SpecularMapFilepath">Models/Text/SpecMap.png</Data>
+        <Data Key="NormalMapFilepath">Models/Text/NormalMap.png</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Text\Text.xnb</Output>
+      <Time>2013-04-18T09:30:34.2615569+01:00</Time>
+      <Dependency>
+        <Key>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\obj\x86\Debug\Models\Text\Text_0.xml</Key>
+        <Value>2013-08-08T14:06:35.7378235+01:00</Value>
+      </Dependency>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Text\UV_0.xnb</Request>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Text\NormalMap_0.xnb</Request>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Text\SpecMap_0.xnb</Request>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Shaders\Lpp.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Robot\Robot.fbx</Source>
+      <Name>Models\Robot\Robot</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>MdlProcessor</Processor>
+      <Parameters>
+        <Data Key="SpecularMapFilepath">Models/Robot/RobotSpecMap.png</Data>
+        <Data Key="Scale">0.5</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Robot\Robot.xnb</Output>
+      <Time>2013-04-18T18:40:58.1640004+01:00</Time>
+      <Dependency>
+        <Key>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\obj\x86\Debug\Models\Robot\Robot_0.xml</Key>
+        <Value>2013-08-08T14:06:41.6541619+01:00</Value>
+      </Dependency>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Robot\RobotUV_0.xnb</Request>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Textures\DefaultNormalMap_0.xnb</Request>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Robot\RobotSpecMap_0.xnb</Request>
+      <Request>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Shaders\Lpp.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Aeon.Aini</Source>
+      <Name>Aeon</Name>
+      <Importer>AiniImporter</Importer>
+      <Processor>AiniProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon.xnb</Output>
+      <Time>2013-04-18T17:05:47.0843453+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Aeon\Shaders\ClearGBuffer.fx</Source>
+      <Name>Aeon\Shaders\ClearGBuffer</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Shaders\ClearGBuffer.xnb</Output>
+      <Time>2013-04-18T14:23:07.4881284+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Aeon\Shaders\Compose.fx</Source>
+      <Name>Aeon\Shaders\Compose</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Shaders\Compose.xnb</Output>
+      <Time>2013-05-01T12:22:14.9211487+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Aeon\Shaders\PointLight.fx</Source>
+      <Name>Aeon\Shaders\PointLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Shaders\PointLight.xnb</Output>
+      <Time>2013-05-01T12:19:42.1524109+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Aeon\Shaders\Lpp.fx</Source>
+      <Name>Aeon\Shaders\Lpp</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Shaders\Lpp.xnb</Output>
+      <Time>2013-04-19T01:40:28.6659401+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Scenes.scns</Source>
+      <Name>Scenes</Name>
+      <Importer>ScenesImporter</Importer>
+      <Processor>ScenesProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Scenes.xnb</Output>
+      <Time>2013-04-18T18:22:53.2399463+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Scenes\Scene1.scn</Source>
+      <Name>Scenes\Scene1</Name>
+      <Importer>ScnImporter</Importer>
+      <Processor>ScnProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Scenes\Scene1.xnb</Output>
+      <Time>2013-04-18T18:32:42.1546303+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Scenes\Scene2.scn</Source>
+      <Name>Scenes\Scene2</Name>
+      <Importer>ScnImporter</Importer>
+      <Processor>ScnProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Scenes\Scene2.xnb</Output>
+      <Time>2013-04-22T13:09:35.6747507+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Aeon\Models\PointLightModel.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\obj\x86\Debug\Aeon\Models\PointLightModel_0.xml</Output>
+      <Time>2013-04-14T10:18:50.7852157+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Aeon\Models\Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Models\Texture_0.xnb</Output>
+      <Time>2013-04-14T10:18:50.807217+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Text\Text.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\obj\x86\Debug\Models\Text\Text_0.xml</Output>
+      <Time>2013-04-18T09:30:34.2615569+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Text\UV.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Text\UV_0.xnb</Output>
+      <Time>2013-04-20T18:40:26.0144167+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Text\NormalMap.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Text\NormalMap_0.xnb</Output>
+      <Time>2013-05-04T10:40:46.804281+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Text\SpecMap.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Text\SpecMap_0.xnb</Output>
+      <Time>2013-04-18T09:37:18.1626587+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Robot\Robot.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\obj\x86\Debug\Models\Robot\Robot_0.xml</Output>
+      <Time>2013-04-18T18:40:58.1640004+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Robot\RobotUV.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Robot\RobotUV_0.xnb</Output>
+      <Time>2013-04-18T13:34:39.4077957+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Aeon\Textures\DefaultNormalMap.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Aeon\Textures\DefaultNormalMap_0.xnb</Output>
+      <Time>2013-04-14T10:16:57.3437272+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Robot\RobotSpecMap.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\Models\Robot\RobotSpecMap_0.xnb</Output>
+      <Time>2013-04-18T13:34:39.4167962+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{020D8A6B-8EDA-498A-BD4B-86A20AB8F64E}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePassContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Aeon Engine\LightingPrePass\LightingPrePass\LightingPrePass\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Aeon Engine\AeonPipeline\AeonPipeline\bin\x86\Debug\AeonPipeline.dll</Key>
+        <Value>2013-04-19T00:36:19.4957801+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-11-20T13:40:29.2028851+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
